@@ -31,7 +31,7 @@ allow {
 
 # Allow bob to do anything
 allow {
-	input.user == "sumesh"
+	input.user == "bob"
 }
 
 # you can ignore this rule, it's simply here to create a dependency
