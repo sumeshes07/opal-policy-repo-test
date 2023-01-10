@@ -71,6 +71,10 @@
       {
         "action": "delete",
         "type": "finance"
+      },
+      {
+        "action": "delete",
+        "type": "finance"
       }
     ]
   }
