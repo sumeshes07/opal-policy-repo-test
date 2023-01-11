@@ -1,0 +1,16 @@
+{  
+  "friends": [
+  {
+    "id": 0,
+    "name": "Fowler Wilder"
+  },
+  {
+    "id": 1,
+    "name": "Maryanne Madden"
+  },
+  {
+    "id": 2,
+    "name": "Bettye Holland"
+  }
+]
+}
