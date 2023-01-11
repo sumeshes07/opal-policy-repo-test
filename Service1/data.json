@@ -20,13 +20,6 @@
         "country": "US",
         "ip": "8.8.8.8"
       }
-    },
-    "anna": {
-      "roles": ["customer"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
     }
   },
   "role_permissions": {
@@ -73,10 +66,6 @@
       },
       {
         "action": "update",
-        "type": "finance"
-      },
-      {
-        "action": "delete",
         "type": "finance"
       }
     ]
