@@ -44,19 +44,19 @@ allow {
 #}
 
 # Allow the action if the user is granted permission to perform the action.
-allow {
-	# Find permissions for the user.
-	some permission
-	user_is_granted[permission]
+# allow {
+# 	# Find permissions for the user.
+# 	some permission
+# 	user_is_granted[permission]
 
-	# Check if the permission permits the action.
-	input.action == permission.action
-	input.type == permission.type
+# 	# Check if the permission permits the action.
+# 	input.action == permission.action
+# 	input.type == permission.type
 
-	# unless user location is outside US
-	country := data.users[input.user].location.country
-	country == "US"
-}
+# 	# unless user location is outside US
+# 	country := data.users[input.user].location.country
+# 	country == "US"
+# }
 
 # user_is_admin is true if...
 user_is_admin {
