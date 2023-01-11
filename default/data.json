@@ -11,10 +11,6 @@
       "eve": {
           "tenure": 5,
           "title": "employee"
-      },
-      "dave": {
-          "tenure": 5,
-          "title": "customer"
       }
   },
   "pet_attributes": {
