@@ -80,5 +80,19 @@
         "type": "finance"
       }
     ]
-  }
+  },
+  "user_attributes": {
+    "alice1": {
+        "tenure": 20,
+        "title": "owner"
+    },
+    "bob1": {
+        "tenure": 15,
+        "title": "employee"
+    },
+    "eve": {
+        "tenure": 6,
+        "title": "employeetest"
+    }
+}
 }
