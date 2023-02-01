@@ -1,12 +1,6 @@
 {
   "users": {
-    "alice": {
-      "roles": ["admin"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
+    
     "bob": {
       "roles": ["employee", "billing"],
       "location": {
