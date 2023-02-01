@@ -1,6 +1,6 @@
 {
   "users": {
-    },
+ 
     "bob": {
       "roles": ["employee", "billing"],
       "location": {
