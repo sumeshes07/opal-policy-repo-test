@@ -31,12 +31,6 @@
           "age": 2,
           "breed": "collie",
           "name": "lassie"
-      },
-      "cat123": {
-          "adopted": false,
-          "age": 1,
-          "breed": "fictitious",
-          "name": "cheshire"
       }
   }
 }
