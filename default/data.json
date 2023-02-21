@@ -1,5 +1,9 @@
 {
   "user_attributes": {
+      "alice": {
+          "tenure": 20,
+          "title": "owner"
+      },
       "bob": {
           "tenure": 15,
           "title": "employee"
