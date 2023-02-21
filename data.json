@@ -14,14 +14,14 @@
         "ip": "8.8.8.8"
       }
     },
-    "eve": {
-      "roles": ["customer"],
+     "sunil": {
+      "roles": ["guest"],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
       }
     },
-    "anna": {
+    "eve": {
       "roles": ["customer"],
       "location": {
         "country": "US",
@@ -74,25 +74,17 @@
       {
         "action": "update",
         "type": "finance"
-      },
-      {
-        "action": "delete",
-        "type": "finance"
       }
+    ],
+    "guest": [
+     {
+       "action": "read",
+       "type": "cat"
+     },
+     {
+       "action": "read",
+       "type": "finance"
+     }
     ]
-  },
-  "user_attributes": {
-    "alice1": {
-        "tenure": 20,
-        "title": "owner"
-    },
-    "bob1": {
-        "tenure": 15,
-        "title": "employee"
-    },
-    "eve": {
-        "tenure": 6,
-        "title": "employeetest"
-    }
-}
+  }
 }
